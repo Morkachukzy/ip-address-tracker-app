@@ -1,0 +1,49 @@
+.geo-info {
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 13px;
+  padding: 1.9rem 2.5rem;
+
+  border: transparent;
+  background-color: var(--very-dark-gray);
+}
+.display-geo-info {
+  background-color: var(--very-dark-gray);
+  flex-basis: 25%;
+  border-right: 1px solid black;
+
+  padding-left: 1.5em;
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+}
+.ip {
+  padding: 0;
+  border-radius: 13px 0 0 13px;
+}
+.isp {
+  border-right: none;
+}
+.geo-info:last-child {
+  border-right: none;
+}
+@media screen and (max-width: 1120px) {
+  .geo-info {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .geo-info {
+    padding: 1rem 1.4rem;
+    flex-direction: column;
+    width: 70%;
+  }
+  .display-geo-info {
+    align-items: center;
+    padding-left: 0;
+
+    border-right: none;
+  }
+}

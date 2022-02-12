@@ -1,0 +1,6 @@
+#map-view {
+  width: 100%;
+}
+.mapboxgl-ctrl {
+  display: none !important;
+}

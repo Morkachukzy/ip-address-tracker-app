@@ -1,0 +1,21 @@
+div {
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+}
+h1 {
+  color: black;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+@media screen and (max-width: 1120px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 670px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+}

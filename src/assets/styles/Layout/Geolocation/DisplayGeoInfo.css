@@ -1,0 +1,53 @@
+h2 {
+  font-size: 0.6em;
+  text-align: left;
+  margin: 0;
+  padding: 1em;
+  padding-left: 0;
+  padding-top: 0;
+
+  letter-spacing: 0.1em;
+  color: var(--dark-gray);
+  font-weight: 700;
+}
+p {
+  text-align: left;
+  margin: 0;
+  font-size: 1.1em;
+  max-width: 80%;
+  font-weight: 500;
+  color: white;
+}
+.geo-wrapper {
+  padding: 0;
+  flex-basis: 100%;
+}
+@media screen and (max-width: 1258px) {
+  .geo-wrapper {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .geo-wrapper {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .geo-wrapper {
+    font-size: 0.9em;
+  }
+  h2,
+  p {
+    text-align: center;
+  }
+  p {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 670px) {
+  .geo-wrapper {
+    font-size: 0.8em;
+    padding: 1em;
+  }
+}

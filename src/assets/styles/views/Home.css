@@ -1,0 +1,28 @@
+#home {
+  background-color: #637d8e;
+  margin: 0;
+  background-image: url("../../images/background.jpg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-attachment: fixed;
+  background-position: top;
+  overflow: hidden;
+}
+@media screen and (orientation: portrait) {
+  #home {
+    /* portrait-specific styles */
+    background-size: auto 100%;
+  }
+}
+/* landscape */
+@media screen and (orientation: landscape) {
+  #home {
+    /* landscape-specific styles */
+    background-size: 100% auto;
+  }
+}
+@media screen and (min-height: 700px) and (max-width: 750px) {
+  #home {
+    height: 100vh;
+  }
+}
